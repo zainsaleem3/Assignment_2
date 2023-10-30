@@ -11,5 +11,8 @@
     "url": "Assignment_2"
   },
   "author": "Zain Saleem",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
