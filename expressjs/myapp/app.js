@@ -4,10 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('expressjs\myapp\routes\index.ejs');
-var AboutRouter = require('expressjs\myapp\routes\About.ejs');
-var ContactRouter = require('expressjs\myapp\routes\Contact.ejs');
-var ProjectsRouter = require('expressjs\myapp\routes\Projects.ejs');
+var indexRouter = require('expressjs\myapp\routes\index.js');
+var AboutRouter = require('expressjs\myapp\routes\About.js');
+var ContactRouter = require('expressjs\myapp\routes\Contact.js');
+var ProjectsRouter = require('expressjs\myapp\routes\Projects.js');
 
 
 var app = express();
