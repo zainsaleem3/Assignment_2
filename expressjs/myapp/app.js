@@ -4,8 +4,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var indexRouter = require('expressjs\myapp\routes\index.ejs');
+var AboutRouter = require('expressjs\myapp\routes\About.ejs');
+var ContactRouter = require('expressjs\myapp\routes\Contact.ejs');
+var ProjectsRouter = require('expressjs\myapp\routes\Projects.ejs');
+
 
 var app = express();
 
